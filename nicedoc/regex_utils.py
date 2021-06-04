@@ -14,4 +14,4 @@ IDENTIFY_EACH_PART_REGEX = r'"""\n\s*(.*\s*)*?(Parameters\s*-*\s*((.*\s*)*?))?(R
 EXTRACT_CAMEL = r"(\.|\s|^)(\b[a-z]+)(([A-Z]+[a-z]+)+?)\b"
 
 # Extracting the camel case string the file
-EXTRACT_CAMEL_CASE = r"(\s|\.|\[|^)([a-z]+?([A-Z]+?[a-z,0-9]+)+)"
+EXTRACT_CAMEL_CASE = r"(\s|\.|\[|\(|^)([a-z]+?([A-Z]+?[a-z,0-9]+)+)"

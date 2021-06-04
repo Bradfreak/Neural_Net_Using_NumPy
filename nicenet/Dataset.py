@@ -38,8 +38,8 @@ class Dataset():
             Doesn't return anything.
         """
 
-        input_handler = self.open_file(inputFile)
-        target_handler = self.open_file(targetFile)
+        input_handler = self.open_file(input_file)
+        target_handler = self.open_file(target_file)
 
         if not input_handler or not target_handler:
             print("Unable to create Dataset")

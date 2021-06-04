@@ -6,7 +6,7 @@ from .Types import T_Output_Array
 
 def shuffle_array(array: list):
     array_copy = array.copy()
-    random.shuffle(arrayCopy)
+    random.shuffle(array_copy)
 
     return array_copy
 
